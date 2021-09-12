@@ -1,0 +1,24 @@
+Package: cnr
+Title: Functions For Working With NC Files
+Version: 0.0.0.9000
+Authors@R: c(
+  person("Markus", "Skyttner", email = "markus.skyttner@nrm.se", role = c("aut", "cre")))
+Description: Functions and example scripts for converting nc files (.cdf or .nc) 
+    to raster and tabular data.
+License: AGPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    lubridate,
+    ncmeta,
+    purrr,
+    readr,
+    terra,
+    tictoc,
+    htmlwidgets,
+    leaflet,
+    mapview,
+    raster
